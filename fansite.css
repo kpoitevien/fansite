@@ -1,4 +1,43 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+html{
+  min-height: 100%;
 }
+body {
+  display: flex;
+  margin: 0;
+  position: relative;
+ background-size: contain;
+ background-position: center;
+  /* background-image: url("back.jpeg"); */
+  background-repeat: no-repeat;
+  text-align: center;
+  /* width: 100%;
+  height:auto; */
+}
+
+main{
+height: 100%;
+}
+
+.middle-side{
+  position: relative;
+}
+
+.middle-content{
+  /* position: absolute; */
+  z-index: 5;
+  text-align: center;
+}
+
+img{
+  width: 615px;
+}
+/* .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+h1 {
+  text-align: center;
+}
+  
