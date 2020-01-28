@@ -4,7 +4,6 @@ html{
 body {
   display: flex;
   margin: 0;
-  position: relative;
  background-size: contain;
  background-position: center;
   /* background-image: url("back.jpeg"); */
@@ -14,28 +13,33 @@ body {
   height:auto; */
 }
 
-main{
-height: 100%;
+.columns{
+  width: 33%;
+  filter: saturate(100%) grayscale(100%);
+  background-size: cover;
+  
 }
 
-.middle-side{
+#left-side {
+  height: 100vh;
+  background-image: url('bedroom.jpg');
+}
+
+#middle-side{
   position: relative;
+  text-align: center;
+  background-image: url('plant.jpg');
 }
 
 .middle-content{
-  /* position: absolute; */
-  z-index: 5;
   text-align: center;
+  color: white;
+  list-style: none;
 }
 
-img{
-  width: 615px;
+#right-side {
+  background-image: url('back.jpeg');
 }
-/* .flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 h1 {
   text-align: center;
